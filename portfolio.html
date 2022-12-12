@@ -329,7 +329,7 @@
     <footer class="foot-main">
       <div class="foot-together">
         <div class="foot">
-          <a class="logo-foot" href="" title="Головна сторінка"
+          <a class="logo-foot link" href="" title="Головна сторінка"
             ><span class="logo-web">Web</span
             ><span class="logo-studio-foot">Studio</span></a
           >
@@ -337,7 +337,7 @@
             <ul class="nav-ul adr">
               <li class="item">
                 <a
-                  class="foot-adress"
+                  class="foot-adress link"
                   href="https://goo.gl/maps/2znSzA5FASChHcnv6"
                   target="_blank"
                   rel="noreferrer noopener nofollow"
@@ -345,12 +345,12 @@
                 >
               </li>
               <li class="item">
-                <a class="foot-contact" href="mailto:info@devstudio.com"
+                <a class="foot-contact link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="item">
-                <a class="foot-contact" href="tel:+380961111111"
+                <a class="foot-contact link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -386,6 +386,24 @@
             </li>
           </ul>
         </div>
+        <form name="form-foot" class="form-foot">
+          <div class="foot-input-line">
+            <label for="mail-foot" class="foot-label"
+              >Підпишіться на розсилку</label
+            >
+            <input
+              name="mail-foot"
+              id="mail-foot"
+              type="email"
+              class="mail-foot-input"
+				  placeholder="E-mail"
+            />
+          </div>
+          <button class="buton-foot-input">
+				<span class="foot-span">Підписатися</span><svg class="icon-send" width="24">
+					<use href="./images/icons.svg#icon-icon-send"></use>
+				</svg></button>
+        </form>
       </div>
     </footer>
   </body>
