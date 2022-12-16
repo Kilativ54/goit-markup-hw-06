@@ -990,11 +990,12 @@ color: #757575;
 }
 
 .check-line input:checked +.checkbox-agree::before{
-	background-color: #141618;
+	background-color: var(--button-color);
 border: none;
 background-image: url(../images/check-mark.svg);
 background-repeat: no-repeat;
 background-position: center;
+fill: inherit;
 }
 
 .link-form{
@@ -1021,7 +1022,7 @@ margin-left: 9px;
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
+	}
 
 .foot-input-line{
 	width: 358px;
